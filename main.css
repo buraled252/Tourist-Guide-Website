@@ -1,0 +1,41 @@
+/* Navigation links */
+.navbar a {
+    padding: 12px;
+    color: rgb(82, 12, 144);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  .navbar {
+    text-align: center;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  #title1 {
+    text-align: center;
+    background-color: blueviolet;
+  }
+  #torarticles {
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    background-color: chartreuse;
+  }
+  
