@@ -10,7 +10,7 @@
     text-align: center; /* If you want the text to be centered */
   }
   .navbar {
-    text-align: center;
+    text-align: center; /*aligns navbar text to Centre*/
   }
   a:link {
     text-decoration: none;
@@ -43,11 +43,12 @@
   #attractions_list{
     font-size: medium;
     text-align: justify;
-    text-size-adjust: 50px;
+    
   }
   table,
     th,
     td {
+
         background-color: darkorange;
         padding: 20px;
         border: 2px solid black;
