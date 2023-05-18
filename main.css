@@ -29,13 +29,32 @@
   }
 
   #title1 {
+    color: antiquewhite;
     text-align: center;
     background-color: blueviolet;
   }
   #torarticles {
-    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-content: center;
+    text-align: center;
     padding: 20px;
     background-color: chartreuse;
   }
+  #attractions_list{
+    font-size: medium;
+    text-align: justify;
+    text-size-adjust: 50px;
+  }
+  table,
+    th,
+    td {
+        background-color: darkorange;
+        padding: 20px;
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    #embmap{
+      
+    }
+
   

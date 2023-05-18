@@ -19,8 +19,30 @@
         <h1 id="title1">Contacts</h1>
     </header>
 
-    <main">
-     
+    <main>    
+        <form action="&quot;https://httpbin.org/get&quot;." method="get"></form>
+         <fieldset>
+        <legend>Personal Info</legend>
+       <p>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" id="firstName" placeholder="FIrst Name" autofocus >
+       </p>
+       <p>
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="LastName" id="lasttName" placeholder="Last Name" >
+       </p>
+       <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required >
+       </p>
+       <p>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phoneNumber" placeholder="Enter Phone" pattern="[0-9]{3}[0-9]{4}" >
+       </p>
+        </fieldset>
+        <fieldset>
+            <legend></legend>
+        </fieldset>
     </main>
 
     <footer>
