@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Ahmed" >
@@ -11,42 +11,70 @@
     <header>
         <nav class="navbar">
             <a href="index.html">Home</a>
+            <a href="attractions.html">Attractions</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
-            <a href="attractions.html">Attractions</a>
         </nav>
         <hr>
         <h1 id="title1">Contacts</h1>
     </header>
 
     <main>    
-        <form action="&quot;https://httpbin.org/get&quot;." method="get"></form>
-         <fieldset>
-        <legend>Personal Info</legend>
-       <p>
-        <label for="FirstName">First Name:</label>
-        <input type="text" name="FirstName" id="firstName" placeholder="FIrst Name" autofocus >
-       </p>
-       <p>
-        <label for="LastName">Last Name:</label>
-        <input type="text" name="LastName" id="lasttName" placeholder="Last Name" >
-       </p>
-       <p>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" placeholder="Enter Password" required >
-       </p>
-       <p>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" name="phone" id="phoneNumber" placeholder="Enter Phone" pattern="[0-9]{3}[0-9]{4}" >
-       </p>
-        </fieldset>
-        <fieldset>
-            <legend></legend>
-        </fieldset>
+        <section>
+            <h2>Leave us a Message</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                 <p>
+                    <label for="firstName">First Name:</label>
+                     <input type="text" name="firstName" id="firstName" placeholder="First Name" >
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                     <input type="text" name="lastName" id="lastName" placeholder="Last Name" >
+                </p>
+                <p>
+                     <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required >
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter Phone" pattern="[0-9]{3}[0-9]{4}" >
+                 </p>
+                <p>
+    <label for="remember_me">Remember Me:</label>
+    <input type="checkbox" name="remember_me" id="remember_me">
+    </p>
+    </fieldset>
+            <fieldset>
+                <legend>Feedback</legend>
+                
+                <p><textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message"></textarea></p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Subscribe to Our Newsletter</legend>
+                <p>Updates</p>
+                <p>
+                    <label for="weekly">Weekly:</label>
+                    <input type="checkbox" name="updates" id="weekly">
+                </p>
+                <p>
+                    <label for="monthly">Monthly:</label>
+                    <input type="checkbox" name="updates" id="monthly">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <button type="submit">Submit (Get)</button>
+                <button type="submit" formaction="https://httpbin.org/get" formmethod="post">Submit Post</button>
+            </fieldset>
+            </form>
+                </section>
     </main>
 
     <footer>
-<a href="#">Back to Top</a>
+<a href="#">Back to Top</a> &copy;Ahmed Burale
     </footer>
 </body>
 </html>
