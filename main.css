@@ -44,7 +44,12 @@ body {
     align-content: center;
     text-align: center;
     padding: 20px;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
+    background-image: url(/images/cntower.png);
+  }
+  .intro {
+    background-color: rgba(63, 42, 141, 0.5);
+    font-weight: 600;
   }
   #attractions_list{
     font-size: medium;
